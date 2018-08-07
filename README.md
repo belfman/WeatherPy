@@ -19,6 +19,12 @@ As for % humidity and the other graphs made, there is no correlation to be found
 distribution of humidity, cloudiness and wind speed accross all the latitudes. 
 
 ![](images/Latitude_Temperature.png)
+
+
 ![](images/Latitude_Humidity.png)
+
+
 ![](images/Latitude_Cloudiness.png)
+
+
 ![](images/Latitude_Wind.png)
