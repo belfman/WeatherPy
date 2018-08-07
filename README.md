@@ -9,6 +9,8 @@ Third, I queried the OpenWeatherMap website to get relevant data for each city s
 wind speed.
 Finally, I used pandas and matplotlib to create a DataFrame and visualize the results.
 
+![](Latitude_Longitude.png)
+
 # Analysis
 There is a clear correlation of latitude to temperature. As the latitudes approach the extreme values, the temperature
 decreases, with the highest temperatures found at 35 degrees. With a larger data set, the trend could lean more to 
