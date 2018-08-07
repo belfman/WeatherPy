@@ -9,7 +9,7 @@ Third, I queried the OpenWeatherMap website to get relevant data for each city s
 wind speed.
 Finally, I used pandas and matplotlib to create a DataFrame and visualize the results.
 
-![](Latitude_Longitude.png)
+![](images/Latitude_Longitude.png)
 
 # Analysis
 There is a clear correlation of latitude to temperature. As the latitudes approach the extreme values, the temperature
@@ -17,3 +17,8 @@ decreases, with the highest temperatures found at 35 degrees. With a larger data
 higher temperatures closer to zero degrees. 
 As for % humidity and the other graphs made, there is no correlation to be found based on latitude. There is an even
 distribution of humidity, cloudiness and wind speed accross all the latitudes. 
+
+![](images/Latitude_Temperature.png)
+![](images/Latitude_Humidity.png)
+![](images/Latitude_Cloudiness.png)
+![](images/Latitude_Wind.png)
