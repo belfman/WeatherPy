@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WeatherPy</h1>
+    <p>I chose to employ data analytics to answer and visualize this question: is it hotter 
+        at the equator? First, I used the Random module in Python to uniformly select Latitudes 
+        between -90.000 to 90.000, and Longitudes from -180.000 to 180.000. I generated 2000 
+        unique coordinate pairs. Second, I used the Citipy module to find the nearest city to 
+        each coordinate pair, and eliminated any duplicates. This left me with an unbiased sample 
+        of 637 cities. Third, I queried the OpenWeatherMap website to get relevant data for each
+        city such as: temperature, % humidity, % cloudiness, wind speed. Finally, I used pandas
+        and matplotlib to create a DataFrame and visualize the results.
+    </p>
+    <img src="" width="100" alt="long vs lat">
+    <img src="" width="100" alt="lat vs tamp">
+    <img src="" width="100" alt="lat vs humidity">
+    <img src="images/Latitude_Cloudiness.png" width="100" alt="lat vs cloudiness">
+
+</body>
+</html>
