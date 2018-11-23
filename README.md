@@ -1,6 +1,11 @@
-# WeatherPy
+# WeatherPy 
+<a href = "https://belfman.github.io/index.html"> Link to WeatherPy Page</a> 
 
-I chose to employ data analytics to answer and visualize this question: __is it hotter at the equator?__ 
+
+### Task
+Use data analytics to answer and visualize this question: __is it hotter at the equator?__
+***
+### Process
 First, I used the Random module in Python to uniformly select Latitudes between -90.000 to 90.000, and Longitudes
 from -180.000 to 180.000. I generated 2000 unique coordinate pairs. 
 Second, I used the Citipy module to find the nearest city to each coordinate pair, and eliminated any duplicates.
